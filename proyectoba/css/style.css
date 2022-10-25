@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;1,300 & display=swap');
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(221, 241, 241);
+    font-size: medium;
+
+}
+.navbar{
+    background-color: rgb(33, 101, 15);
+    color: #edf5f3;
+    width: 1600px;
+    font-family:'Roboto', sans-serif;
+    
+}
+.links_navegacion{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+li a{
+    color: aliceblue;
+    text-decoration-line: none;
+    text-align: end;
+
+}
