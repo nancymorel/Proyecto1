@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="/proyectoba/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="titulo">
         <div>
             <img height="55px" src="https://us.123rf.com/450wm/annarich/annarich2008/annarich200800007/153311733-camioneta-naranja-con-bosque-y-monta%C3%B1as-al-fondo-vivir-la-vida-en-furgoneta-acampar-en-la-naturaleza.jpg?ver=6" alt="logo">
-            <span class="viajes">Viajando por Argentina</span>
+            <span id="viaje">Viajando por Argentina</span>
         </div>
         <div>
             <h1>San Luis</h1>
         </div>
-        <nav class="navbar">
+    </header>
+    <nav class="navbar">
             <ul class="links_navegacion">
                 <li><a href="https://es.wikipedia.org/wiki/Potrero_de_los_Funes">Potrero del los Funes</a></li>
                 <li><a href="https://es.wikipedia.org/wiki/El_Trapiche_(Argentina)">El Trapiche</a></li>
@@ -24,9 +25,9 @@
                 <li><a href="https://es.wikipedia.org/wiki/Salinas_del_Bebedero_(San_Luis)">Salinas del Bebedero</a></li>
             </ul>
             
-        </nav>
+    </nav>
         
-    </header>
+    
 
     <main>
     <section id="bienvenida">
@@ -76,26 +77,32 @@
                 </p>
                 <img height="250px" src="/proyectoba/img/Sierra-de-las-Quijadas-3.jpg" alt="sierra">
             </div>
-            <p> Encuentra mas info en <a href="https://www.sanluis.gov.ar/" target="_blank">San Luis</a>.</p>
+            <p> Encuentra mas info en <a class="links_navegacion" href="https://www.sanluis.gov.ar/" target="_blank">San Luis</a>.</p>
         </article>
     </section>
     </main>
-
+    <section class="consulta">
+        <div class="consulta">
+            
+            <table class="tabla">
+                <tr>
+                    <th>Consultas</th>
+                </tr>
+                <tr>
+                     <td>Nombre: <input type="Fulanita"></td>
+                </tr>
+                <tr>
+                    <td>Email: <input type="miemail.@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Mensaje: <input type="text"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
     <footer>
-        <table class="tabla">
-            <tr>
-                <th>Consultas</th>
-            </tr>
-            <tr>
-                <td>Nombre: <input type="text"></td>
-            </tr>
-            <tr>
-                <td>Email: <input type="text"></td>
-            </tr>
-            <tr>
-                <td>Mensaje: <input type="text"></td>
-            </tr>
-        </table>
+        <span>Derechos reservados</span>
     </footer>
+    
 </body>
 </html>
